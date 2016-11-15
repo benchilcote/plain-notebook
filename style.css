@@ -23,10 +23,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 body {
     background-color: #1D8BBD;
     font-family: 'Lato', serif;
+    line-height: 133%; 
 }
 
 a {
     color: white;
+    text-decoration: underline;
+    -moz-text-decoration-color: red; /* Code for Firefox */
+    text-decoration-color: red;
+    
+}
+p {
+color: white;
 }
 
 blockquote {
@@ -53,7 +61,9 @@ p.site-description {
 .entry-title a {
     font-size: 1rem;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: overline;
+    border-bottom: 10px solid white;
+
 }
 
 #page {
@@ -70,6 +80,8 @@ p.site-description {
 .main-navigation {
     font-size: 90%;
     display: none;
+    border-bottom: 20px solid white;
+
 }
 
 .main-navigation ul {
